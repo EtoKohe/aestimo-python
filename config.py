@@ -34,13 +34,15 @@ meV2J=1e-3*q #meV to Joules
 
 # Default Input File(s)
 # -------------
+inputfilename = "sample_multi_qw_barrierdope_p"
+#inputfilename ="sample_pn_qd_fcadiz2020_prm"
+
 #inputfilename = "sample_2qw_InGaAS_GaAs"
 #inputfilename = "sample_qw_barrierdope"
 #inputfilename = "sample_qw_qwdope"
 #inputfilename = "sample_moddop"
 #inputfilename = "sample_qw_HarrisonCh3_3"
 #inputfilename = "sample_qw_barrierdope_p"
-#inputfilename = "sample_multi_qw_barrierdope_p"
 #inputfilename = "sample_double_qw"
 #inputfilename = "sample_qw_barrierdope_p_ingan"
 #inputfilename = "sample_qw_barrierdope_ingaas"
@@ -52,7 +54,6 @@ meV2J=1e-3*q #meV to Joules
 #inputfilename = "sample_qw_barrierdope_p_AlGaInN"
 #inputfilename = "sample_qw_barrierdope_p_AlGaInN_2"
 #inputfilename = "sample_pn"
-inputfilename ="sample_pn_qd_fcadiz2020_prm"
 #inputfilename = "sample_2qw_InGaN_GaN_vs_1ddcc"
 # Calculation
 # -----------

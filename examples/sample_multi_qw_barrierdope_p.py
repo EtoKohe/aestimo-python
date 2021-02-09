@@ -21,14 +21,14 @@ T = 300.0 #Kelvin
 # 7: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson then  poisson and DD)
 # 8: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson and DD)
 # 9: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson and DD) using Gummel & Newton map
-computation_scheme = 2
+computation_scheme = 9
 
 # QUANTUM
 # Total subband number to be calculated for electrons
 subnumber_h = 1
 subnumber_e = 1
 # APPLIED ELECTRIC FIELD
-Fapplied = 0.00#/50e-9 # (V/m)
+Fapplied = 0.3#/50e-9 # (V/m)
 vmax= 1.8
 vmin= 0.0
 Each_Step=0.05
