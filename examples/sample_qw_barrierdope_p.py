@@ -21,7 +21,7 @@ T = 300.0 #Kelvin
 # 7: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson then  poisson and DD)
 # 8: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson and DD)
 # 9: Schrodinger-Poisson-Drift_Diffusion (Schrodinger solved with poisson and DD) using Gummel & Newton map
-computation_scheme = 2
+computation_scheme = 9
 
 # QUANTUM
 # Total subband number to be calculated for electrons
