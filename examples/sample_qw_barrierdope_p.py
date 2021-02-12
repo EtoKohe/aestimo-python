@@ -25,8 +25,8 @@ computation_scheme = 8
 
 # QUANTUM
 # Total subband number to be calculated for electrons
-subnumber_h = 1
-subnumber_e = 1
+subnumber_h = 2
+subnumber_e = 2
 # APPLIED ELECTRIC FIELD
 Fapplied = 0.7#/50e-9 # (V/m)
 vmax= 1.4
