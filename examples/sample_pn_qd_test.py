@@ -47,7 +47,7 @@ Each_Step=0.05
 # For 1D, z-axis is choosen
 gridfactor = 2 #nm,通常時は1
 maxgridpoints = 400000 #for controlling the size通常時は200000
-mat_type='Zincblende'
+mat_type='Wurtzite'
 # REGIONS
 # Region input is a two-dimensional list input.
 # An example:
@@ -60,22 +60,7 @@ mat_type='Zincblende'
 
 #インタプリタはcondaを選ぶ
 material =[
-            [ 350.0, 'GaAs', 0.0, 0.0, 1e18, 'p','b'], #めちゃめちゃいらないかも
-            [ 50.0, 'AlGaAs', 0.15, 0.0, 1e18, 'p','b'],
-            [ 40.0, 'GaAs', 0.0, 0.0, 0.0, 'p','w'],
-                [ 9.0, 'InGaAs', 0.5, 0.0, 0.0, 'p','b'],
-                [ 10.0, 'GaAs', 0.0, 0.0, 6e17, 'p','b'], 
-                [ 30.0, 'GaAs', 0.0, 0.0, 0.0, 'p','w'],
-                [ 9.0, 'InGaAs', 0.5, 0.0, 0.0, 'p','b'],
-                [ 10.0, 'GaAs', 0.0, 0.0, 6e17, 'p','b'], 
-                [ 30.0, 'GaAs', 0.0, 0.0, 0.0, 'p','w'], 
-                [ 9.0, 'InGaAs', 0.5, 0.0, 0.0, 'p','b'],
-                [ 10.0, 'GaAs', 0.0, 0.0, 6e17, 'p','b'], 
-                [ 30.0, 'GaAs', 0.0, 0.0, 0.0, 'p','w'],  
-            [ 50.0, 'AlGaAs', 0.1, 0.0, 2e17, 'n','b'],
-            [ 5.0, 'GaAs', 0.0, 0.0, 2e17, 'n','b'],
-            [ 20.0, 'MgO', 0.0, 0.0, 'n','w']
-            ]
+            [ 20.0, 'MgO', 0.0, 0.0, 'n','w']]
 
 """ sample_qw_barrierdope_p
 dopp=5e17
