@@ -37,8 +37,8 @@ meV2J=1e-3*q #meV to Joules
 #inputfilename = "sample_multi_qw_barrierdope_p"
 #inputfilename = "sample_qw_barrierdope_p"
 
-#inputfilename ="sample_pn_qd_fcadiz2020_prm"
-inputfilename ="sample_pn_qd_etou2020_prapplied"
+inputfilename ="sample_pn_qd_fcadiz2020_prm"
+#inputfilename ="sample_pn_qd_etou2020_prapplied"
 
 #inputfilename = "sample_2qw_InGaAS_GaAs"
 #inputfilename = "sample_qw_barrierdope"

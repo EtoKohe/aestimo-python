@@ -18,7 +18,7 @@ T = 300.0 #Kelvin
 # 4: Schrodinger-Exchange interaction
 # 5: Schrodinger-Poisson + Exchange interaction
 # 6: Schrodinger-Poisson + Exchange interaction with nonparabolicity
-computation_scheme = 8
+computation_scheme = 9
 
 # Non-parabolic effective mass function
 # 0: no energy dependence
@@ -31,8 +31,8 @@ computation_scheme = 8
 
 # QUANTUM
 # Total subband number to be calculated for electrons
-subnumber_e = 2
-subnumber_h = 2
+subnumber_e = 1
+subnumber_h = 1
 # APPLIED ELECTRIC FIELD
 Fapplied = 0.7#/50e-9 # (V/m)
 vmax= 1.4
@@ -45,7 +45,7 @@ Each_Step=0.05
 
 # GRID
 # For 1D, z-axis is choosen
-gridfactor = 1 #nm
+gridfactor = 0.2 #nm
 maxgridpoints = 200000 #for controlling the size
 mat_type='Zincblende'
 # REGIONS
@@ -57,7 +57,7 @@ mat_type='Zincblende'
 # Layer 1 |       250.0     |   Si     |      0         |     1e16      |     p       |
 #
 # To input this list in Gallium, we use lists as:
-
+"""
 material =[                                                 # dont know difference of 'GaAs',0,... and 'GaAs', 0.2...
             [2.5, 'MgO', 0.0, 0.0, 'n','w'],
             [50.0, 'GaAs', 0.0, 1e16, 'n','b'], 
@@ -70,7 +70,19 @@ material =[                                                 # dont know differen
             [50.0, 'GaAs', 0.0, 1e16, 'p','w']
             #[300.0, 'GaAs', 0.0, 0.0,  5e18, 'n','w']
             ]
-
+"""
+material =[                                                 # dont know difference of 'GaAs',0,... and 'GaAs', 0.2...
+            [2.5, 'MgO', 0.0, 0.0, 'n','w'],
+            [50.0, 'GaAs', 0.0, 1e16, 'n','w'], 
+            [30.0, 'GaAs', 0.0, 0.0, 'n','w'],
+            [9.0, 'InGaAs', 0.3, 0.0, 'n','b'],
+            [30.0, 'GaAs', 0.0, 0.0, 'n','w'],
+            #[9.0, 'InGaAs', 0.3, 0.0, 'n','b'],
+            #[30.0, 'GaAs', 0.0, 0.0, 'n','w'],
+            #[9.0, 'InGaAs', 0.3, 0.0, 'n','b']
+            #[100.0, 'GaAs', 0.0, 1e16, 'p','w']    #pdope material simulation dosnt work ...eto
+            #[300.0, 'GaAs', 0.0, 0.0,  5e18, 'n','w']
+            ]
 
  #----------------------------------------
 import numpy as np
