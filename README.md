@@ -5,8 +5,8 @@ Version 2.0
 
 Description
 --------
-!!This repository is unofficial Aestimo repository.!!
+!!  This repository is unofficial Aestimo repository.  !!
 
-purpose of this repository : 
+purpose of this repository : shareing the using code of aestimo.
 
 Here repository is official Aestimo -> https://github.com/aestimosolver/aestimo
