@@ -422,7 +422,7 @@ materialproperty = {
 'VSATN':3e5,# Saturation Velocity of Electrons
 'VSATP':6e5 , # Saturation Velocity of Holes
 'AVb_E':-7.52#Average Valence Band Energy or the absolute energy level
-},"""
+},
 'MgO':{
 'm_e':0.24,
 'm_e_alpha':5.3782e18,
@@ -470,40 +470,7 @@ materialproperty = {
 'VSATN':3e5,# Saturation Velocity of Electrons
 'VSATP':6e5 , # Saturation Velocity of Holes
 'AVb_E':-7.52#Average Valence Band Energy or the absolute energy level
-},"""
-'MgO_zb':{
-'m_e':0.15,
-'m_hh':0.51,
-'m_lh':0.18,
-'epsilonStatic':10.06,
-'Eg':3.0,#2.980,
-'Ep':21.1,
-'F':-0.48,
-'Band_offset':0.53,
-'m_e_alpha':0.0,
-'GA1':3.45,
-'GA2':0.68,
-'GA3':1.29, 
-'C11':11.879,
-'C12':5.376,
-'a0':5.66, 
-'Ac':-5.64,
-'Av':2.47,
-'B':-1.5,
-'delta':0.28,
-'TAUN0':0.1E-6,
-'TAUP0':0.1E-6,
-'mun0':0.15,
-'mup0':0.1,
-'Cn0':2.8e-31,# generation recombination model parameters [cm**6/s]
-'Cp0':2.8e-32,# generation recombination model parameters [cm**6/s]
-'BETAN':2.0,
-'BETAP':1.0,# Parameter in calculatation of the Field Dependant Mobility
-'VSATN':3e5,# Saturation Velocity of Electrons
-'VSATP':6e5, # Saturation Velocity of Holes
-'AVb_E':-7.49#Average Valence Band Energy or the absolute energy level
 },
-
 'ZnO':{
 'm_e':0.24,
 'm_e_alpha':5.3782e18,
@@ -584,6 +551,38 @@ materialproperty = {
 'VSATN':3e5,# Saturation Velocity of Electrons
 'VSATP':6e5 , # Saturation Velocity of Holes
 'AVb_E':-7.03#Average Valence Band Energy or the absolute energy level
+},
+'MgO_zb':{
+'m_e':0.15,
+'m_hh':0.51,
+'m_lh':0.18,
+'epsilonStatic':10.06,
+'Eg':3.0,#2.980,
+'Ep':21.1,
+'F':-0.48,
+'Band_offset':0.53,
+'m_e_alpha':0.0,
+'GA1':3.45,
+'GA2':0.68,
+'GA3':1.29, 
+'C11':11.879,
+'C12':5.376,
+'a0':5.66, 
+'Ac':-5.64,
+'Av':2.47,
+'B':-1.5,
+'delta':0.28,
+'TAUN0':0.1E-6,
+'TAUP0':0.1E-6,
+'mun0':0.15,
+'mup0':0.1,
+'Cn0':2.8e-31,# generation recombination model parameters [cm**6/s]
+'Cp0':2.8e-32,# generation recombination model parameters [cm**6/s]
+'BETAN':2.0,
+'BETAP':1.0,# Parameter in calculatation of the Field Dependant Mobility
+'VSATN':3e5,# Saturation Velocity of Electrons
+'VSATP':6e5, # Saturation Velocity of Holes
+'AVb_E':-7.49#Average Valence Band Energy or the absolute energy level
 },
 'Ge':{
 'm_e':0.22,
