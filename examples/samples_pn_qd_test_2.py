@@ -27,10 +27,10 @@ computation_scheme = 9
 subnumber_h = 20
 subnumber_e = 20
 # APPLIED ELECTRIC FIELD
-Fapplied = 0.05#/50e-9 # (V/m)
+Fapplied = 0.00#/50e-9 # (V/m)
 vmax= 1.4
 vmin= 0.0
-Each_Step=0.05# --------------------------------
+Each_Step=0.2# --------------------------------
 # REGIONAL SETTINGS FOR SIMULATION
 # --------------------------------
 
@@ -77,20 +77,15 @@ dop_profile=np.zeros(n_max)
 #----------------------------------------
 Quantum_Regions=True
 Quantum_Regions_boundary=np.zeros((1,2))
-Quantum_Regions_boundary[0,0]=100
-"""
-Quantum_Regions_boundary[0,1]=250
-Quantum_Regions_boundary[1,0]=250
-Quantum_Regions_boundary[1,1]=280
-Quantum_Regions_boundary[2,0]=280
-"""
-Quantum_Regions_boundary[0,1]=375
+
+Quantum_Regions_boundary[0,0]=180
+Quantum_Regions_boundary[0,1]=365
 #----------------------------------------
 surface=np.zeros(2) 
 #----------------------------------------
 #This is accourding to interpolated Vegard’s law for quaternary AxB(1-x)CyD(1-y)=InxGa(1-x)AsyP(1-y)
 #---------------------
-inputfilename = "samples_pn_qd_test_2.py"
+inputfilename = "samples_pn_fcadiz2020.py"
 from os import path
 if __name__ == "__main__": #this code allows you to run the input file directly
     input_obj = vars()
