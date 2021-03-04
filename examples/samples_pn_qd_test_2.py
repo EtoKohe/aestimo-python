@@ -85,7 +85,7 @@ surface=np.zeros(2)
 #----------------------------------------
 #This is accourding to interpolated Vegard’s law for quaternary AxB(1-x)CyD(1-y)=InxGa(1-x)AsyP(1-y)
 #---------------------
-inputfilename = "samples_pn_fcadiz2020.py"
+inputfilename = "samples_pn_qd_test_2.py"
 from os import path
 if __name__ == "__main__": #this code allows you to run the input file directly
     input_obj = vars()
